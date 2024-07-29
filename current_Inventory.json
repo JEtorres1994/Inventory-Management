@@ -1,0 +1,30 @@
+{"Food":{
+    "Protein":[
+        { "name":"steak", "amount":20, "price":5.99 },
+        { "name":"chicken", "amount":15, "price":4.99 },
+        { "name":"fish", "amount":10, "price":3.99 },
+        { "name":"pork", "amount":5, "price":3.99 }
+],
+    "Vegetables":[
+        { "name":"onions", "amount":20, "price":3.99 },
+        { "name":"potatoes", "amount":45, "price":4.99 },
+        { "name":"carrots", "amount":15, "price":2.99 },
+        { "name":"tomatoes", "amount":10, "price":2.99 }
+],
+    "Dairy":[
+        { "name":"milk", "amount":101, "price":4.99, "expiration":"2024-10-29"  },
+        { "name":"cheese", "amount":98, "price":5.99, "expiration":"2024-10-19"  }, 
+        { "name":"eggs", "amount":83, "price":3.99, "expiration":"2024-10-09"  }
+],
+    "Fruit":[
+        { "name":"apple", "amount":25, "price":0.75  },
+        { "name":"banana", "amount":25, "price":0.99 },
+        { "name":"watermelon", "amount":4, "price":2.50 }
+]},
+"Chemicals":[
+
+        { "name":"dish_soap", "amount":5, "price":50.00  },
+        { "name":"floor_cleaner", "amount":3, "price":30.00 },
+        { "name":"sanitaizer", "amount":7, "price":45.00 }
+]}
+

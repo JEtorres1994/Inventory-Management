@@ -3,13 +3,17 @@
         { "name":"steak", "amount":20, "price":5.99 },
         { "name":"chicken", "amount":15, "price":4.99 },
         { "name":"fish", "amount":10, "price":3.99 },
-        { "name":"pork", "amount":5, "price":3.99 }
+        { "name":"pork", "amount":5, "price":3.99 },
+        { "name":"veggie burger", "amount":5, "price":4.99 }
 ],
     "Vegetables":[
         { "name":"onions", "amount":20, "price":3.99 },
         { "name":"potatoes", "amount":45, "price":4.99 },
         { "name":"carrots", "amount":15, "price":2.99 },
-        { "name":"tomatoes", "amount":10, "price":2.99 }
+        { "name":"tomatoes", "amount":10, "price":0.99 },
+        { "name":"lettuce", "amount":10, "price":0.99 },
+        { "name":"squash", "amount":10, "price":2.50 },
+        { "name":"pickles", "amount":10, "price":0.99 }
 ],
     "Dairy":[
         { "name":"milk", "amount":101, "price":4.99, "expiration":"2024-10-29"  },
@@ -19,7 +23,10 @@
     "Fruit":[
         { "name":"apple", "amount":25, "price":0.75  },
         { "name":"banana", "amount":25, "price":0.99 },
-        { "name":"watermelon", "amount":4, "price":2.50 }
+        { "name":"watermelon", "amount":4, "price":0.99 },
+        { "name":"pineapple", "amount":25, "price":0.99  },
+        { "name":"berries", "amount":25, "price":1.99 }
+       
 ]},
 "Chemicals":[
 

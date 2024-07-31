@@ -1,13 +1,20 @@
 var prompt = require('prompt-sync')();
 var inventory = require('./current_Inventory.json');
+var specials = require('./specials.json');
+var date = new Date();
 
-var name = prompt('what is your name ? ');
+const day = date.getDay();
 
-console.log("hello "+name+ ", !");
+var name = prompt('What is your name ? ');
 
-console.log("here is today specials " + JSON.stringify(inventory.Food.Protein[0].name))
+console.log("Hello "+name+ ", !");
+console.log("Today is "+JSON.stringify(specials.Specials[day].Day)+"")
+console.log("Here is today specials " + JSON.stringify(specials.Specials[day].Protein)+" with the side of "+JSON.stringify(specials.Specials[day].Vegetables)+ " and "+JSON.stringify(specials.Specials[day].Fruit))
+
+//var order = prompt('Do you want the special of the day?');
 
 
+//console.log("here is today specials " + JSON.stringify(inventory.Food.Protein[0].name))
 
 
 

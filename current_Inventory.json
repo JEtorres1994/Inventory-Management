@@ -23,7 +23,7 @@
     "Fruit":[
         { "name":"apple", "amount":25, "price":0.75  },
         { "name":"banana", "amount":25, "price":0.99 },
-        { "name":"watermelon", "amount":4, "price":0.99 },
+        { "name":"watermelon", "amount":25, "price":0.99 },
         { "name":"pineapple", "amount":25, "price":0.99  },
         { "name":"berries", "amount":25, "price":1.99 }
        

@@ -103,7 +103,7 @@ var sp = prompt("Do you want the special of the day?");
                     }          
         console.log("To confirm your order is "+proteins+", with a side of "+sides+" and "+fruits+" ." )
     } else {
-        console.log("Invalid Option")
+        console.log("Invalid Option.")
     }
 
 

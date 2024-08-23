@@ -24,9 +24,13 @@ console.log("Today is "+JSON.stringify(specials.Specials[day].Day)+".");
         console.log( JSON.stringify(specials.Specials[day].Protein) );
         process.exit()
     }
-console.log("The special of the day is " + JSON.stringify(specials.Specials[day].Protein)+" with the side of "+JSON.stringify(specials.Specials[day].Vegetables)+ " and "+JSON.stringify(specials.Specials[day].Fruit)+ " for a price off $"+(JSON.stringify(specials.Specials[day].Price)* tax)+ ".");
+console.log("The special of the day is " + JSON.stringify(specials.Specials[day].Protein) +" with the side of "+ JSON.stringify(specials.Specials[day].Vegetables) + " and "+ JSON.stringify(specials.Specials[day].Fruit) + "." );
 var sp = prompt("Do you want the special of the day?");
     if (sp == "yes"){
+                var totalSP = specials.Specials[day].Price
+                var TotalSP = [(totalSP * tax) + totalSP ]
+                const TotalsSP = Math.round(TotalSP* 100) / 100
+            console.log("Your total after taxes is " +TotalsSP+ ".");
             console.log("Thank you "+name+", order have been sent to the kitchen.");
             process.exit()
     }
